@@ -1,0 +1,231 @@
+fullstack=>
+*doing both f.end and backend and devops
+types of fullstack:
+mern,mean,java fullstack,django,lampp,flask,kwiq,Android studio,flutter,gen ai(r (or) python)
+intro to mern stack :
+why we need to learn mern stack specifically?
+*nessary components
+*components based architecture
+but angular also component based
+mean components:
+1.html
+2.css
+3.specifically
+4.fuctionlity js/ts
+what is the name of your tree in dom?
+1.binary terre
+2.avl tree
+3.b/b+ tree
+4.n-ary tree
+r and d => research and development needsc to be done individually for us to learn mern
+17 days
+vdom =>virtual DOM->
+it is an exact replica of our dom
+when v dom 's elements are chnaged the v dom will change the same in the dom it will not change the entire structure
+overveiw of version control:
+ludo 8.2.336
+social/chat
+search - world
+3 questions 
+1.i am rectifiing a bug present in my game which version number i will update? patch/bug version
+2.i am create a new feature , in this case which version number i will update?minor version
+3.i am changing the architure of the game, which number i will update ? major version
+versioning concept
+1.major version
+2.minor version
+3.patch/beg version
+whenever an archituctural change accuor then change first number and decimals also will change of the version number
+types of version control system(vcs):
+1.centralized vcs eg:fees paying 
+2.distributed vcs eg:if i am the only one not payed the fee
+git hub contributing to the open soucre repo in git hub gets as an badge in git hub account
+if you want to make a folder as an repository of our github then you need to what?
+specific folder to be initialized with what=> git init
+create new terminal and seletct cmd near powershell
+git config --list =>it will show all the configurations we made 
+then we see colan(:) then we are not in our terminal but in gitbash terminal
+o/p:initalized git repostitory <floder structure>
+->all your files are been ordered with unstaged->'u'
+to use our git configurations 
+(git config --list)
+press q to exit
+to track your status of files we use
+ (git status)
+ interveiw question
+ why git is fast ?
+ why git is fast in executing the commands typed?
+ reasion is git is developed with c language
+ if an file is untrackedd then we need to track the file how too track an file what is the commend needed to do that?
+ (git add<filename>)-> used for adding specific files  we cant add all the files for that another coomend 
+ (git add)->add all the files  
+after use this commend (git add indexhtmlmern.html)
+status change to 'A'
+[C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git add indexhtmlmern.html
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   indexhtmlmern.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .hintrc
+        HTML TUTORIAL.code-workspace
+        array.txt
+        arrayofObjects.html
+        conwrit.html
+        cssmern.css
+        demo.html
+        event1.png
+        form1.html
+        formpract.html
+        fullstack.txt
+        jr.html
+        js.txt
+        map.html
+        margin.html
+        pattern.html
+        popup.html
+        popups.txt
+        vijay.html
+
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>   ]
+there are two types of commit normal commit commment added commit 
+(git commit -m "Adding indexhtmlmern.html")
+if any error then following comments with eg:
+[C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git commit -m "Adding indexhtmlmern.html"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'JEGAN VIJAY@VIJAY-S-PC.(none)')
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git config --global user.email "jjeganvijay@gmail.com" 
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git config --global user.name "jjeganvijay" 
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git commit -m "Adding indexhtmlmern.html"
+[master (root-commit) dd8a611] Adding indexhtmlmern.html
+ 1 file changed, 11 insertions(+)
+ create mode 100644 indexhtmlmern.html
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>]
+to see in which email we have commiteed
+[C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git log
+commit dd8a61162e28608ef28277379937ca0984a20538 (HEAD -> master)
+Author: jjeganvijay <jjeganvijay@gmail.com>
+Date:   Wed Jan 8 12:33:35 2025 +0530
+
+    Adding indexhtmlmern.html
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>]
+[C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git config --global user.email
+jjeganvijay@gmail.com
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>]
+now we have commited so we need to push to do that we need to create an repository
+we go to github web and log our acc and create an new repo in some name then it will show two sets of code we use second set because we already have an repo ready 
+areas of git 
+1.local areas
+2.staging area->before your first push it is called as coding area
+3.github area
+we reach staging area by using (git add)
+then the git will know we are ready to push the files 
+then we use (git push) to push the files 
+[or create a new repository on the command line
+echo "# mernstacktutorialin-sece" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jjeganvijay/mernstacktutorialin-sece.git
+git push -u origin main
+…or push an existing repository from the command line
+(git remote add origin https://github.com/jjeganvijay/mernstacktutorialin-sece.git
+git branch -M main
+git push -u origin main)]
+after that to push to the follow eg :
+[C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git remote add origin https://github.com/jjeganvijay/mernstacktutorialin-sece.git
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git push -u origin maste
+error: src refspec maste does not match any
+error: failed to push some refs to 'https://github.com/jjeganvijay/mernstacktutorialin-sece.git'
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 342 bytes | 342.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/jjeganvijay/mernstacktutorialin-sece.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git remote add origin https://github.com/jjeganvijay/mernstacktutorialin-sece.git
+error: remote origin already exists.
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git push -u origin master
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>git push -u origin master
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+C:\Users\JEGAN VIJAY\Desktop\HTML TUTORIAL>]
+erros while pushing 
+1.Authantication error:
+ans:authentication out github
+to assecc the lead repository by tying uour github credentials
+2.public key error=>there is no public keyto access your repository
+  1.generate a public key.
+  Commend:
+  (ssh-keygen)=>it will generate our public key
+  2.on the top right of your github
+  ->you will be find the profile i can 
+  ->click on setting
+  ->select ssh and geg key
+  ->add the generatde id key inside your sshkey as a new key 
+  3.click on save
+  so,now
+  mern2025->an folder inside that folder 
+we have html_css/
+then if mern2025 is repository 
+then what is html_css/ ?
+to ignore some files on the folders
+[If mern2025 is a repository, then html_css/ is a subdirectory (folder) within that repository.
+
+In the context of a version control system like Git, here's what that means:
+
+mern2025: This is your root repository. It's the main folder containing all files and subdirectories that are tracked by Git.
+html_css/: This is a subfolder within the repository that organizes specific files (in this case, likely HTML and CSS files). It could represent a particular section, feature, or component of your project.]
+to ignore some files on the folders.......
+

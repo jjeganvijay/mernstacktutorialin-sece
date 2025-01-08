@@ -1,0 +1,6 @@
+popups->display the messages within not the part of html veiw
+|
+>
+alert->show messages
+conform->true/false
+prompt->yes/no

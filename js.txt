@@ -1,0 +1,20 @@
+<!--the types of datatypes in the js 
+var
+let
+const>
+th let is an advanecd version of var 
+var can be redeclared
+but let cant be redeclared 
+eg 
+<script>
+    var a=10;
+    var a=20;
+</script>
+is coorect but
+<script>
+    let a=10;
+    let a=20;
+</script>
+const reassign
+getellementsbytagname gives all the tag name 
+getelementbyid only gives specific id
